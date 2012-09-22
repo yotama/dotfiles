@@ -40,6 +40,13 @@ zstyle ':completion:*' list-colors di=34 fi=0
 # 最後がディレクトリ名で終わっている場合末尾の / を自動的に取り除かない
 setopt noautoremoveslash
 
+# ヒストリー
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt hist_ignore_dups
+setopt share_history
+
 export EDITOR=vim
 
 alias ls='ls -G'
