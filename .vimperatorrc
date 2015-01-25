@@ -18,4 +18,6 @@ noremap B :set<Space>complete=b<CR>:tabopen<Space>
 " noremap i gi
 
 ignorekeys add -except=:,f,F,S,<C-n>,<C-p> 'reader.livedoor.com/reader'
+ignorekeys add -except=:,f,F,S,<C-n>,<C-p> 'feedly.com'
 
+:colorscheme abyss
